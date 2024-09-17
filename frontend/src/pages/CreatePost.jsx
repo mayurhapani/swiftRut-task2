@@ -46,7 +46,7 @@ export default function CreatePost() {
     };
 
     fetchUser();
-  }, [isLoggedIn, navigate]);
+  }, [isLoggedIn, navigate, BASE_URL]);
 
   const notify1 = (msg) => toast.error(msg);
   const notify2 = (msg) => toast.success(msg);
